@@ -33,7 +33,7 @@ h1{
   position: absolute;
   left: calc(50% - 120px);
   top: calc(50% - 120px);
-  font-family: cursive;
+  font-family: cursive
 }
 
 .h1{
@@ -43,7 +43,7 @@ h1{
   top: calc(50% - 37px); 
   position: absolute;
   font-size: 200%;
-  font-family: cursive;
+  font-family: cursive
 }
 
 body {
