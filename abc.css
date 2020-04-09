@@ -1,15 +1,4 @@
-body {
-  background-color: #f0f0f0;
-  font-size: 14px;
-  color: #333;
-  margin: 0 auto;
-}
-h1,h2,h3,h4,h5,h6,p {
-  padding: 10px 0;
-  margin: 0;
-}
-
-header{
+header {
   margin: auto;
   padding: auto;
   background-size: cover;
@@ -26,7 +15,7 @@ video {
   width: 100vw;
 }
 
-h1{
+h1 {
   margin: auto;
   color: #eed13f;
   font-size: 300%;
@@ -36,7 +25,7 @@ h1{
   font-family: cursive
 }
 
-.h1{
+.h1-2 {
   color: #eed13f;
   margin: 0 auto;
   left: calc(45% - 120px); 
@@ -52,31 +41,59 @@ body {
   background-color: honeydew; 
 } 
 
+h2.body1 {
+  text-align: center;
+}
 
-ul.bodya{
+p.body1-2 {
+  text-align: center;
+}
+
+ul.body2 {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-li{
+li {
   float: left;
   padding-right: 10px;
-  margin: 0 auto;
-}
-
-h4{
-  color: brown;
+  margin: auto;
   text-align: center;
 }
 
-h5{
-  font-size: 100%;
+.web-1 {
+  animation: img-wrap 2s cubic-bezier(.4, 0, .2, 1);
+  width: 50%;
 }
 
-h6{
-  font-size: 100%;
+@keyframes img-wrap {
+  0% {
+    clip-path: circle(0 at 50% 50%);
+    -webkit-clip-path: circle(0 at 50% 50%);
+  }
+  
+  100% {
+    clip-path: circle(100% at 50% 50%);
+    -webkit-clip-path: circle(100% at 50% 50%);
+  }
+}
+
+.web-text {
+  text-align: center;
+}
+
+h2.PR {
+  text-align: center;
+}
+
+ul.PR-1 {
+  text-align: center;
+}
+
+h2.PR-0 {
+  color: red;
 }
 
 footer {
@@ -84,7 +101,7 @@ footer {
   margin: 0 auto;
 }
 
-ul.footera{
+ul.footers{
   display: flex;
   list-style: none;
 }
@@ -97,34 +114,6 @@ ul.footera{
   color: brown;
 }
 
-.iryou {
-  animation: img-wrap 2s cubic-bezier(.4, 0, .2, 1);
-}
-
-@keyframes img-wrap {
-  0% {
-    clip-path: circle(0 at 50% 50%);
-    -webkit-clip-path: circle(0 at 50% 50%);
-  }
-  
-  100% {
-    clip-path: circle(100% at 50% 50%);
-    -webkit-clip-path: circle(100% at 50% 50%);
-  }
-}
-
-.iryou-1 {
-  animation: img-wrap 2s cubic-bezier(.4, 0, .2, 1);
-}
-
-@keyframes img-wrap {
-  0% {
-    clip-path: circle(0 at 50% 50%);
-    -webkit-clip-path: circle(0 at 50% 50%);
-  }
-  
-  100% {
-    clip-path: circle(100% at 50% 50%);
-    -webkit-clip-path: circle(100% at 50% 50%);
-  }
+.twitter-follow-button {
+  text-align: center;
 }
